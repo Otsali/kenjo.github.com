@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factores en el comercio electrónico</title>
+  </head>
+  <style>
+    html{
+      font-family: cursive;
+    }
+    p {
+      color: rgb(48, 19, 177);
+      font-size: 200%;
+      text-align: justify;
+    }
+    h1 {
+      color: rgb(48, 19, 177);
+      font-size: 350%;
+      text-align: center;
+      background-color: aqua;
+    }
+    ol {
+      font-size: 400%;
+    }
+    table {
+      font-size: 150%;
+      border-color: rgb(4, 0, 255);
+      background: url(/background/AnimatedShape.svg);
+      width: 60%;
+     
+    }
+    font {
+      color: rgb(7, 106, 255);
+    }
+    h3{
+        color: rgb(48, 19, 177);
+    }
+    img{
+        width: 95%;
+    }
+    button{
+      font-family: cursive;
+       position: absolute;
+       align-items: center;
+       left: 45%;
+       cursor: pointer;
+       font-size: 200%;
+       background-color: blueviolet;
+       color: aqua;
+       border-radius: 20%;
+       border-color: rgb(255, 2, 2);
+    }
+    #music{
+        position: absolute;
+        align-items: center;
+        top: 1%;
+        left: 80%;
+    }
+    li :hover{
+      color: rgb(247, 5, 255);
+      background-color: rgb(217, 255, 2);
+    }
+    #menu{
+      float: right;
+      width: 95%;
+      height: 100%;
+    }
+    #menu li{
+      list-style: none;
+      float: left;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #menu li a{
+      display: block;
+      color: rgb(238, 255, 0);
+      background-color: rgb(34, 10, 255);
+      text-decoration:none;
+      padding: 8px 16px;
+      font-size: 200%;
+    }
+    #menu li :not(.factores){
+      background-color: rgb(12, 224, 101);
+    }
+    #menu li :hover{
+      color: white;
+    }
+    #menu li :hover:not(.factores){
+      background-color: rgb(89, 0, 255);
+        color: white;
+    }
+    #menu ul{
+      margin-left: 15%;
+      padding: 0;
+    }
+    
+
+  </style>
+  <!-- Tambien se puede agregar en body el metodo
+       onload="daleClic()" -->
+  <body background="background/AnimatedShape3.svg" >
+    <audio id="music" src="music/Calvin Harris - josh pan.mp3"  loop></audio>
+    <h1>
+        <!-- para agregar esto tal vez
+            background-image: url(/background/AnimatedShape.svg) -->
+     <p
+        style="
+          text-align: center;
+          color: blueviolet;"
+      >
+        TEMAS DE ANÁLISIS
+      </p>
+    </h1>
+    <dir id="menu">
+      <ul>
+        <li><a href="pag_index.html">INICIO</a></li>
+        <li><a href="pag_introduction.html">INTRODUCCIÓN</a></li>
+        <li><a href="pag_ecommerce.html">E-COMMERCE</a></li>
+        <li><a class="factores" href="pag_factores.html">FACTORES</a></li>
+        <li><a href="pag_descargas.html">DESCARGAS</a></li>
+      </ul>
+    </dir>
+    <hr size="10" noshade="" width="80%" color="red" />
+    <br>
+    <p >
+      Cuatro son los temas que se analizaran en el presente informe. Los Medios
+      de Pago para el consumo de bienes y servicios por medio del Comercio
+      Electrónico. Los Sistemas de Seguridad que se están utilizando. Los
+      Aspectos Legales que se presentan en América Latina y como influyen en el
+      comercio electrónico, y finalmente un análisis de la población de América
+      Latina y como influye en desarrollos de Comercio Electrónico.
+    </p>
+    <table border="7" align="center" rules="none" >
+      <theader>
+        <td colspan="2">
+          <p style="font-size: 150%; color: rgb(0, 17, 255); text-align: center;">
+            <b>FACTORES QUE INTERVIENEN EN EL COMERCIO ELECTRONICO</b>
+          </p>
+        </td>
+      </theader>
+
+      <tr>
+        <td>
+            <h3 style="text-align: left;"><b>Medios de Pago</b></h3>
+            <p style="font-size: 100%;">
+                Cuando nos referimos a los medios de pago estamos incluyendo el
+              uso de tarjetas, tanto de crédito como de débito (siendo el uso de
+              las primeras claramente marcado en Latinoamérica), el uso de
+              tarjetas pre-pagos, cybercash, cheques-virtuales, entre otros. El
+              pago, en el proceso de Comercio Electrónico se puede realizar
+              directamente en línea o fuera de ella, siendo el sistema utilizado
+              por muchos de los proyectos analizados, el pago por tarjeta fuera
+              del sistema electrónico, es decir, el sistema electrónico servía
+              (y sirve) para el pedido del bien y/o servicio.
+            </p>
+          </p>
+        </td>
+        <td align="center"><img src="images/mediosDePago.png" alt="Medios de pago" ></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="gift/hacker-7955_512.gif" alt="Sistemas de Seguridad"></td>
+        <td style="font-size: 100%; color: rgb(111, 1, 255)">
+          <h3 style="text-align: right;"><b>Contenido (Sistema de Seguridad)</b></h3>
+          <p style="font-size: 100%;">Se tienen dos opciones claramente definidas SSL o SET. Siendo el primero el más utilizado
+            en toda Latinoamérica, al ser más económica de desarrollar, pero hay que mencionar que no
+            fue un protocolo utilizado primariamente para comercio electrónico, sino para
+            comunicaciones seguras. SET se desarrolla después en un proyecto en el cual participaron
+            VISA, MasterCard, IBM, Microsoft, entre otras empresas. El SSL, utilizada con éxito por
+            Amazon.Com (paradigma del uso del mismo), sirve fundamentalmente para la obtención
+            de los datos de los compradores, para luego ser procesado en un sistema de MOTO (Mail
+            Order – Telephone Order).</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="font-size: 100%; color: rgb(111, 1, 255)">
+          <h3 style="text-align: left;"><b>Contenido (Legislación)</b></h3>
+          <p style="font-size: 100%;">La Legislación
+
+            Latinoamérica presenta una diversidad de opciones en lo referido a legislación en torno al
+            Comercio Electrónico, pero debemos indicar que esta puede ser una contra-sentido.El
+            Comercio Electrónico no es un nuevo comercio electrónico “per-se” sino una modalidad
+            del Comercio, ya existente, por lo cual la aplicación de las cláusulas contractuales pre-
+            existentes (al Internet) son de aplicación. Es cierto que se tienen nuevos aspectos que
+            analizar pero que estos requieren una legislación complementaria mas no primaria.</p>
+        </td>
+        <td align="center"><img src="images/legislacion.jpg" alt="Legislacion de comercio electrónico"></td>
+      </tr>
+      <tr>
+        <td align="center"><img style="width: 95%;" src="gift/cartoon-479_512.gif" alt="Usuarios de comercio Electrónico"></td>
+        <td style="font-size: 100%; color: rgb(111, 1, 255)">
+          <h3 style="text-align: right;"><b>Contenido (Usuarios)</b></h3>
+          <p style="font-size: 100%;">De acuerdo con los datos del World Bank (World Development Indicators 1999), se tiene
+            que por cada 1000 habitantes se tienen las siguientes “Telephone Mainlines” para América:
+            Promedio (110), Argentina (191), Brasil (107), Chile (180), Colombia (148), Costa Rica
+            (169), México (96), Perú (68), Trinidad &amp; Tobago (190), Venezuela (116). En promedio se
+            esta mejor que Asia-Pacifico, Sud-Asia, Medio Oriente y Norte de Africa y el Sub-Sahara
+            Africano, pero menos que Europa y Asia Central (Se han analizado solo países en vías de
+            desarrollo)</p>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <li><button  id="boton" type="button" onclick="daleClic()" >Dale clic</button></li>
+    <h1 id="prueba"></h1>
+    <br>
+
+    <script>
+        var miMusicaza= document.getElementById("music")
+        var boton=document.getElementById("boton")
+        var prueba=document.getElementById("prueba");
+        function daleClic(){
+            if(miMusicaza.paused){
+                miMusicaza.play();
+                counter=true;
+                if(!miMusicaza.paused){
+                    boton.innerHTML="¿Una pausita?";
+                   const controlsOn= music.setAttribute("controls","")
+                }
+
+            }
+            else{
+                miMusicaza.pause();
+                boton.innerHTML="Actívame socio";
+
+                counter=false;
+                const controlsOut=music.removeAttribute("controls")
+            }
+        }
+        function escribirH1(){
+            document.getElementById("prueba").innerHTML="Ya ta pe"
+        }
+        // un metodo interesante para aprender despuesin
+        window.addEventListener("load",event =>{
+            daleClic();
+        });
+    </script>
+  </body>
+</html>
